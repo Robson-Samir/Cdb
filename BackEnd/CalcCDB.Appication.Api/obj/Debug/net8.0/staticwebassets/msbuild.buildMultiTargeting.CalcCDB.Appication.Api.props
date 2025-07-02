@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CalcCDB.Appication.Api.props" />
+</Project>

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "J2KP8xBXbcyBwL8nPBHptg1nHH8a/qtDggnf/RqyqPg=",
+  "Source": "CalcCDB.Appication.Api",
+  "BasePath": "_content/CalcCDB.Appication.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

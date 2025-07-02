@@ -1,0 +1,6 @@
+@CalcCDB_HostAddress = http://localhost:5069
+
+GET {{CalcCDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
