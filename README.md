@@ -9,7 +9,7 @@ Após baixar o projeto no github. Siga os passos abaixo para instalar aplicaçã
 ```bash
 - Abra seu CMD como administrador
 - Navegue até a pasta do projeto pelo cmd como por exemplo:
-	- cd seu diretorório/TesteCDB
+	- cd seu seudiretorio/pasta do projeto
 - Execute o seguinte comando na pasta onde foi baixado o diretório
 	- docker-compose up --build
 

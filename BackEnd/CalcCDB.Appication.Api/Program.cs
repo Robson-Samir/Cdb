@@ -22,15 +22,6 @@ builder.Services.AddCors(options =>
                       });
 });
 
-if (!builder.Environment.IsDevelopment())
-{
-    builder.Services.AddHttpsRedirection(options =>
-    {
-        options.RedirectStatusCode = Status308PermanentRedirect;
-        options.HttpsPort = 443;
-    });
-}
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,10 +30,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-else
-    app.UseHsts();
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseCors("AllowAllOrigins");
 
