@@ -1,0 +1,37 @@
+
+
+
+<form [formGroup]="meuCalculo" class="container" (ngSubmit)="onSubmit()">
+  <br>
+  <br>
+  <span>{{ title }} app is running!</span>
+  <br>
+  <br>
+
+  <div class="form-group">
+    <label for="lbvalorAplicado">Valor investido (Informe o valor com pontos)</label>
+    <input type="number" class="form-control" name="valorAplicado" id="valorAplicado" formControlName="valorAplicado" required>
+  </div>
+
+  <br>
+   <div class="form-group">
+    <label for="lbprazo">Meses (Informe o valor inteiro)</label>
+    <input type="number" class="form-control" name="prazo" id="prazo" formControlName="prazo" required>
+  </div>
+
+  <br>
+  <div class="form-group">
+    <label><b>Total simulação</b></label>
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Rendimento bruto: {{grossYield}}</label><br>
+    <label>Rendimento liquido: {{netValue}}</label>
+  </div>
+
+  <input type="submit" class="btn btn-primary mt-4" value="Salvar"><span class="ml-2"></span>
+  <a href="#" class="btn btn-secondary mt-4 ml-4 ms-3" (click)="limparFormulario()">Limpar</a>
+
+</form>
+
+<router-outlet></router-outlet>
