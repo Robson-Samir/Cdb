@@ -14,4 +14,8 @@
     <NoWarn>1701;1702;CA2200</NoWarn>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Validation\" />
+  </ItemGroup>
+
 </Project>

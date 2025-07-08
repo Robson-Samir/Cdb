@@ -40,8 +40,8 @@ namespace CalcCDB.Domain.Services
 
                 return Task.FromResult(new InvestingResult()
                 {
-                    GrossYield = Convert.ToDecimal(grossYield.ToString("F2")),
-                    NetValue = Convert.ToDecimal(netFinalValue.ToString("F2")), 
+                    GrossYield = (Convert.ToDecimal(investedvalue.ToString("F2")) + Convert.ToDecimal(grossYield.ToString("F2"))),
+                    NetValue = Convert.ToDecimal(netFinalValue.ToString("F2")) 
                 });
             }
 			catch (Exception ex)

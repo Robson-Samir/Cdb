@@ -17,9 +17,9 @@ namespace CalcCDB.Test
         }
        
         [Test]
-        public async Task CalCdbMonthsLessThanZero()
+        public async Task CalCdbMonthsLessThanOne()
         {            
-            var result = await _controller.CalCdb(1000, 0);
+            var result = await _controller.CalCdb(1000, 1);
             Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(400));           
         }
 
@@ -28,19 +28,33 @@ namespace CalcCDB.Test
         {
             var result = await _controller.CalCdb(0, 5);
             Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(400));
-        }
+        }        
 
         [Test]
-        public async Task CalCdbMonthsGreaterThan12()
-        {
-            var result = await _controller.CalCdb(1000, 14);
-            Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(400));
-        }
-
-        [Test]
-        public async Task CalCdb()
+        public async Task CalCdbUntilSixMonths()
         {
             var result = await _controller.CalCdb(1000, 6);
+            Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(200));
+        }
+
+        [Test]
+        public async Task CalCdbUntilTwelveMonths()
+        {
+            var result = await _controller.CalCdb(1000, 12);
+            Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(200));
+        }
+
+        [Test]
+        public async Task CalCdbUntilTwentyFourMonthsMonths()
+        {
+            var result = await _controller.CalCdb(1000, 24);
+            Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(200));
+        }
+
+        [Test]
+        public async Task CalCdbGreaterThanTwentyFourMonths()
+        {
+            var result = await _controller.CalCdb(1000, 25);
             Assert.That(result.GetType()?.GetProperty("StatusCode")?.GetValue(result), Is.EqualTo(200));
         }
 
@@ -55,6 +69,6 @@ namespace CalcCDB.Test
                 });
 
             Assert.NotNull(result);
-        }        
+        }    
     }
 }
