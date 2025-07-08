@@ -8,7 +8,7 @@ providedIn: 'root'
 export class CDBService {
 
   //private readonly API = 'https://localhost:7197/api/CDB';
-  private readonly API = 'https://localhost:8080/api/CDB';
+  private readonly API = 'http://localhost:8080/api/CDB';
 
     constructor(private http: HttpClient) {}
 

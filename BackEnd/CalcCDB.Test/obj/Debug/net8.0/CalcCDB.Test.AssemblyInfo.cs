@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalcCDB.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ad78683dd3d66b3331e6d94d1428da2eb45611")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalcCDB.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalcCDB.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

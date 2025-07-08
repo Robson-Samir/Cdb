@@ -20,3 +20,4 @@ D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Domain\obj\Debug\net8.0\CalcCDB.Domain
 D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Domain\obj\Debug\net8.0\refint\CalcCDB.Domain.dll
 D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Domain\obj\Debug\net8.0\CalcCDB.Domain.pdb
 D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Domain\obj\Debug\net8.0\ref\CalcCDB.Domain.dll
+D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Domain\obj\Debug\net8.0\CalcCDB.Domain.sourcelink.json

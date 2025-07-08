@@ -74,3 +74,4 @@ D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Appication.Api\obj\Debug\net8.0\refint
 D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Appication.Api\obj\Debug\net8.0\CalcCDB.Appication.Api.pdb
 D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Appication.Api\obj\Debug\net8.0\CalcCDB.Appication.Api.genruntimeconfig.cache
 D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Appication.Api\obj\Debug\net8.0\ref\CalcCDB.Appication.Api.dll
+D:\Projetos\Icdg\TesteCDB\BackEnd\CalcCDB.Appication.Api\obj\Debug\net8.0\CalcCDB.Appication.Api.sourcelink.json
